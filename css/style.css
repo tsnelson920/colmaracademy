@@ -41,42 +41,49 @@ header h2 span {
 .flex-box-container {
     display: flex;
     min-width: 0;
-    background-color: green;
+    background-color: rgb(214, 214, 214);
+    padding: 5px;
 
 }
 
 .flex-box-item {
-    background-color:gray;
+    background-color:rgb(214, 214, 214);
     width: 100%;
     padding: 2rem 1.5rem;
+    min-width: 0;
 }
 
 .flex-box-item-1 {
+    display: flex;
     width: 150%;   
-    flex-wrap: wrap;
+    height: auto;
+    flex-basis: auto;
+    
 }
 
 .flex-box-item-1 img {
-    max-width: 100%; 
-    max-height: 100%;
-    
-    
+    display: flex;
+    padding: 10px;
+    min-width: 0;
+    width: 100%;
+    background-color: rgb(214, 214, 214);
 }
 
 .flex-box-item-2 {
-    background-color: gray;
+    background-color: rgb(214, 214, 214);
     align-items: center;
+    min-width: 0;
 }
 
 .flex-box-item-2 h1 {
     font-family: Roboto, sans-serif;
     font-weight: 800;
     font-size: 4.75rem;
-    color: maroon;
+    color: #424e55;
     text-align: left;
     padding-top: 5.5rem;
     padding-left: 2rem;
-    background-color: green;
+    background-color: rgb(214, 214, 214);
     align-items: center;
   
 }
@@ -85,38 +92,118 @@ header h2 span {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 2.25rem;
+    color: #424e55;
     width: 90%;
     padding-left: 2rem;
-    background-color: rgb(29, 16, 209);
+    background-color: rgb(214, 214, 214);
     align-items: center;
   
 }
 
 .flex-box-item-2 button {
-    background-color: midnightblue;
+    background-color: #424e55;
     color: white;
-    width: 85%;
+    font-size: 1.5rem;
+    width: 80%;
     height: 5rem;
     margin-left: 2rem;
     align-items: center;
+    border: none;
    
 }
 
-.flex-box-container-2 {
+#information {
     display: flex;
-    background-color: hotpink;
+}
+
+.flex-box-container-2 {
+    display: flex;    
+    width: 60%;
+}
+
+.flex-box-2-item-1 img{
+    display: flex;
+    margin: 2rem 1.5rem;
+    padding: 1rem 1.5rem;  
+    width: 90%; 
+}
+
+.information-main-text{
+    width: 95%;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+    color: #424e55;    
+}
+
+.information-main-text h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+.information-main-text h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.information-main-text p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .flex-box-container-3 {
     display: flex;
     flex-direction: column;
-   background-color: green;
-   width: 100%;
+    width: 40%;
 }
 
 
 .flex-box-3-item {
     margin: 10px 10px;
-    background-color: indigo;
     display: inline-flex;
+    border: 1px solid rgb(214, 214, 214);
+
+}
+
+
+.flex-box-3-item img {
+    display: flex;
+    margin: 1rem 1rem;
+    width: 35%;
+    height: auto;
+    
+}
+
+.flex-box-3-item h3 {
+    font-size: 2.5rem;
+    font-family: "Oxygen", Helvetica, sans-serif;
+    color: #36454F;
+    margin-top: 3.5rem;
+    margin-bottom: -0.75rem;
+}
+
+.flex-box-3-item p {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #36454F;
+    padding-top: -0.5rem;  
+
+}
+
+.flex-box-3-item a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.information-text {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.flex-box-3-item-3 {
+    background-color:rgb(214, 214, 214);
 }
