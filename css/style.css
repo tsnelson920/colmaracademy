@@ -199,3 +199,63 @@ header h2 span {
 .flex-box-3-item-3 {
     background-color:rgb(214, 214, 214);
 }
+
+#start-learning {
+    background-color: rgb(214, 214, 214);
+    padding-bottom: 6rem;
+}
+
+#start-learning h2{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #424e55;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1.5rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+}
+
+.box {
+    background-color: white;
+}
+
+.box img {
+    height: auto;
+}
+
+.box h3 {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    color:#424e55;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.box h4 {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    color:#83888b;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.box p {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    color:#83888b;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+ {
+
+}
