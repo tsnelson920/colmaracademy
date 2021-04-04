@@ -256,6 +256,102 @@ header h2 span {
     padding-right: 5rem;
 }
 
- {
+#thesis {
+    background-color: white;
+    display: flex;
+   
+}
 
+.thesis-title {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #424e55;
+}
+
+.flexbox-4 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+video {
+    width: 95.5%;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.flexbox-4 h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #424e55;
+    margin-left: 1.5rem;
+    margin-bottom: -0.25rem;
+}
+
+.flexbox-4 p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #36454F;
+    padding-bottom: 3rem;
+    margin-left: 1.5rem;
+    line-height: 2rem; 
+}
+
+.flexbox-5 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.flexbox-5-item {
+    display: inline-flex;
+}
+
+.flexbox-5-item-1 {
+    background-color: rgb(214, 214, 214);
+}
+
+.flexbox-5-item img {
+    margin: 1rem 1rem;
+    width: 35%;
+    height: auto;
+}
+
+.flexbox-5-item h3 {
+    font-size: 2.5rem;
+    font-family: "Oxygen", Helvetica, sans-serif;
+    color: #36454F;
+    margin-top: 3.5rem;
+    margin-bottom: -0.75rem;
+}
+
+.flexbox-5-item p {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #36454F;
+    padding-top: -0.5rem;  
+}
+
+footer {
+    border-top: 1px rgb(214, 214, 214) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2.5%;
+}
+
+footer p {
+    font-family: "Oxygen", Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #36454F;
+}
+
+.footer-right-half {
+    word-spacing: 1rem; 
 }
